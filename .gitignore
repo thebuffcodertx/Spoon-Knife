@@ -1,0 +1,11 @@
+# Secrets — never commit
+.env
+*.pem
+
+# Generated output — rebuildable, so don't track it
+venv/
+node_modules/
+site/
+
+# Local scratch
+.DS_Store
